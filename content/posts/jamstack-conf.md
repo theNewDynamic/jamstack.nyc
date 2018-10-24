@@ -1,7 +1,7 @@
 ---
 title: JAMstack Conf.
 date: 2018-10-24 17:08:09 +0000
-description: ''
+description: JAMstack Conference, 2018
 
 ---
 On Monday, 10/29 I'll be giving a lightning talk at the [JAMstack.conf](https://jamstackconf.com/) in San Francisco.
