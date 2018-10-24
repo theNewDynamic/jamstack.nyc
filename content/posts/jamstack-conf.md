@@ -1,6 +1,6 @@
 ---
 title: JAMstack Conf.
-date: 2018-10-24 16:30:09 +0000
+date: "2018-10-24"
 description: JAMstack Conference, 2018
 
 ---
