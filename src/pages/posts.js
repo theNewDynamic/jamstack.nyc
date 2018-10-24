@@ -9,7 +9,7 @@ const IndexPage = (props) => {
       {postList.edges.map(({ node }, i) => (
         <Link to={node.fields.slug} className="no-underline text-black" >
           <div className="post-list ">
-            <h1 className="mb-2">{node.frontmatter.title}</h1>
+            <h1 className="mb-2 hover:text-grey-dark">{node.frontmatter.title}</h1>
             <span className="block mb-2 text-grey-darker">{node.frontmatter.date}</span>
             <p className="max-w-lg">{node.excerpt}</p>
           </div>

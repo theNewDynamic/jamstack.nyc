@@ -657,6 +657,14 @@ nav {
   background-color: #27393b;
 }
 
+p {
+  margin-bottom: 20px;
+}
+
+p a {
+  color: #2779bd;
+}
+
 /**
   * Here you would add any of your custom component classes; stuff that you'd
   * want loaded *before* the utilities so that the utilities could still

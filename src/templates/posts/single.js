@@ -9,7 +9,7 @@ function BlogPost(props) {
     const { title } = post.frontmatter;
     return (
         <Layout>
-            <div>
+            <div className="leading-normal mb-32">
                 <h1>{title}</h1>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
             </div>
