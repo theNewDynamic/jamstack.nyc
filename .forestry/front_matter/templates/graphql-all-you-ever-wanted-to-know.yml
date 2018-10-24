@@ -1,7 +1,7 @@
 ---
-label: GraphQL - All you ever wanted to know
-hide_body: 
-is_partial: 
+label: posts
+hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title
@@ -15,11 +15,6 @@ fields:
   default: ''
 - name: description
   label: Description
-  type: text
-  hidden: false
-  default: ''
-- name: path
-  label: Path
   type: text
   hidden: false
   default: ''
