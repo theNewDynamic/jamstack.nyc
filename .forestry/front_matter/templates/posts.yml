@@ -18,5 +18,8 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: textarea
+  name: tweet
+  label: Tweet
 pages:
 - content/posts/jamstack-conf.md
