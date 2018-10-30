@@ -1,7 +1,8 @@
 ---
 title: JAMstack Conf.
-date: "2018-10-24"
+date: 2018-10-24 00:00:00 +0000
 description: JAMstack Conference, 2018
+tweet: this is tweet copy
 
 ---
 On Monday, 10/29 I'll be giving a lightning talk at the [JAMstack.conf](https://jamstackconf.com/) in San Francisco.
