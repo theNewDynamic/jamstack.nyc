@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-tailwind",
-  "description": "Gatsby starter styled with Tailwind",
+  "name": "JAMstack.NYC",
+  "description": "Information about the NYC-based JAMstack Meetup",
   "version": "1.1.1",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
@@ -14,10 +14,7 @@
     "react-helmet": "^5.2.0"
   },
   "keywords": [
-    "gatsby",
-    "tailwind",
-    "tailwindcss",
-    "purgecss"
+    "gatsby"
   ],
   "license": "MIT",
   "scripts": {
