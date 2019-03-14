@@ -2,7 +2,7 @@
 name: JAMstack Event TODO
 about: To outline each event's process
 title: ''
-labels: TODO
+labels: event
 assignees: ''
 
 ---
