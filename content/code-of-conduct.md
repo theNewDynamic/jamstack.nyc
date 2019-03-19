@@ -14,6 +14,7 @@ These policies apply to all the New Dynamic/JAMstack.NYC “spaces”, which inc
 - Our community includes people who work at vendors as well consumers of their products. Vendors, you are welcome to promote your products, but if you do, please be active members of our community and do not merely promote your product.
 - Likewise, vendors are not here merely for support. Questions of a support nature can be posted, but please do not reach out to members directly, expecting support.
 - Approach your interactions with thoughtfulness and care. Recognize the myriad differences between yourself and others, and that you may not view the world through the same lens. Do not dismiss someone because they have a different level of experience, are of a different background, or have a difference of opinion. Be kind to others.
+- D not presume anything you say here will remain private, so act accordingly. Protect IP and legally-protected information.
 
 ## [#](#code-of-conduct)Code of Conduct
 
