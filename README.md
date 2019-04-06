@@ -1,2 +1,0 @@
-
-JAMstack.NYC
