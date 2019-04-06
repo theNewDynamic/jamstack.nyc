@@ -9,6 +9,7 @@ themesDir: components
 theme:
   - tnd
   - layout_module-base
+  - tnd-seo
 preserveTaxonomyNames: true
 disableAliases: true
 blackfriday:
