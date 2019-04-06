@@ -2,7 +2,7 @@
   <article class="h-entry mx-auto max-w-2xl py-2 lg:pt-5 px-4 text-3xl font-brand">
     {{- partial "_components/page-heading.html" . -}}
     <section class="nested leading-normal text-xl font-serif nested-no-underlines nested-imgTK text-grey-darkest pb-32">
-      lkjlkj{{ .Content }}
+      {{ .Content }}
        {{ if (or (eq .Section "article") (eq .Section "event")) }} 
         {{ if .Date }}
           <div class="text-sm">
