@@ -7,6 +7,7 @@ googleAnalytics: ''
 languageCode: en-us
 themesDir: components
 theme:
+  - tnd
   - layout_module-base
 preserveTaxonomyNames: true
 disableAliases: true
@@ -38,7 +39,11 @@ sitemap:
   changefreq: monthly
   filename: sitemap.xml
   priority: 0.5
-social: {}
+social:
+  meetup: 'https://www.meetup.com/JAMstack-nyc/'
+  slack: "https://join.slack.com/t/thenewdynamic/shared_invite/enQtMjkwNjYwNTY0NjkxLWI1NDhlNjZkZjA5ZGJmODE1OThiMjkwN2ZkMzE1YjEwN2YwNWUxYTNjZTUxMGQ2MzU3NWQ0YmVjNGU1NTkxMDk"
+  twitter: JAMstack_nyc
+  youtube: thenewdynamic
 taxonomies:
   tag: tags
 

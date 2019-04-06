@@ -1,9 +1,21 @@
 main:
-  - identifier: home
-    name: Home
-    url: /
+  - identifier: about
+    name: About
+    url: /about
     weight: 1
-  - identifier: article
-    name: Updates
-    url: /article/
+  # - identifier: events
+  #   name: Events
+  #   url: /event/
+  #   weight: 60
+  - identifier: videos
+    name: Videos
+    url: /video/
     weight: 60
+  # - identifier: speakers
+  #   name: Speakers
+  #   url: /speakers/
+  #   weight: 60
+  # - identifier: sponsors
+  #   name: Sponsors
+  #   url: /sponsors/
+  #   weight: 60  

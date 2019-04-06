@@ -5248,6 +5248,18 @@ symbol-tree@^3.2.2:
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.2.tgz#ae27db38f660a7ae2e1c3b7d1bc290819b8519e6"
   integrity sha1-rifbOPZgp64uHDt9G8KQgZuFGeY=
 
+tailwindcss-aspect-ratio@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/tailwindcss-aspect-ratio/-/tailwindcss-aspect-ratio-1.0.1.tgz#63079a14558cb6aa4f8c73a1fd24d268f3a9efed"
+  integrity sha512-8DjET4+vVNY/JYHEjjcGLxJAzmuVLVeNcU99RtW7BdWocywfiYErMuhfcYXk+rCn0hEISCdpY388yjDGTwX56g==
+
+tailwindcss-flexbox-order@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-flexbox-order/-/tailwindcss-flexbox-order-1.0.0.tgz#e3cdc345400369e596ad031866d408db93ad465d"
+  integrity sha512-k0DgnFhqCmojmly+GvpMv4lb1VeoSN6F8lekab99VeQDT0CjeOK+/LRAu9oumL4vnFw6gAgLoyP5dtG5TlN/4w==
+  dependencies:
+    lodash "^4.17.10"
+
 tailwindcss@^1.0.0-beta.4:
   version "1.0.0-beta.4"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.0.0-beta.4.tgz#b69ab23c8ad6b937c12598310d44589f1d9f5d27"

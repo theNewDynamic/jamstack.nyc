@@ -1,15 +1,35 @@
-@import './fonts';
+@import "./fonts";
 @tailwind base;
 
 @tailwind components;
 
-.class-name {
-  @apply bg-red-100;
-}
 
+@import "./tailwindcss/modules/_utilities";
+@import "./tailwindcss/modules/_user-content";
+@import "./tailwindcss/modules/_social-icons-inverse";
+@import "./tailwindcss/modules/_transitions";
+@import "./tailwindcss/modules/_menu";
+@import "./tailwindcss/modules/_menu-button";
+/* @import "./tailwindcss/modules/_hugo-internal-templates"; */
+
+
+/* body {
+  @apply h-screen bg-gray-100;
+}
+nav {
+	@apply text-center;
+}
+.tnd-Nav__item {
+	@apply inline-block mx-3 my-2 text-2xl font-brand;
+}
+.tnd-Nav__item a {
+  @apply text-primary-color;
+}
+.tnd-Nav__item a:hover {
+  @apply text-primary-color-darkest;
+} */
 
 @tailwind utilities;
-
 
 /* USE PURGE CSS ON ABOVE CODE ONLY. ANYTHING BETWEEN THE IGNORE TAGS BELOW WILL NOT BE IGNORED. If using in a module, you need to include the tags in that module directly (I think!).
 https://www.purgecss.com/whitelisting#in-the-css-directly */
