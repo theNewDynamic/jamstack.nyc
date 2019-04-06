@@ -1,0 +1,16 @@
+@import url("https://hello.myfonts.net/count/391b29");
+
+@font-face {
+	font-family: "FranklinGothicLTPro-DmIt";
+	src: url("../fonts/391B29_0_0.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "FranklinGothicLTPro-Heavy";
+	src: url("../fonts/391B29_1_0.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "FranklinGothicLTPro-Dm";
+	src: url("../fonts/391B29_2_0.woff2") format("woff2");
+}

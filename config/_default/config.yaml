@@ -1,0 +1,49 @@
+DefaultContentLanguage: en
+MetaDataFormat: yaml
+buildFuture: true
+baseURL: 'https://www.thenewdynamic.com'
+enableRobotsTXT: true
+googleAnalytics: ''
+languageCode: en-us
+themesDir: components
+theme:
+  - tnd
+  - layout_module-base
+preserveTaxonomyNames: true
+disableAliases: true
+blackfriday:
+  extensionsmask:
+    - noIntraEmphasis
+mediaTypes:
+  text/netlify:
+    delimiter: ''
+    suffixes:
+      - ''
+outputFormats:
+  HEADERS:
+    baseName: _headers
+    isPlainText: true
+    mediatype: text/netlify
+    notAlternative: true
+  REDIR:
+    baseName: _redirects
+    isPlainText: true
+    mediatype: text/netlify
+    notAlternative: true
+outputs:
+  home:
+    - HTML
+    - HEADERS
+    - REDIR
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+social:
+  meetup: 'https://www.meetup.com/JAMstack-nyc/'
+  slack: "https://join.slack.com/t/thenewdynamic/shared_invite/enQtMjkwNjYwNTY0NjkxLWI1NDhlNjZkZjA5ZGJmODE1OThiMjkwN2ZkMzE1YjEwN2YwNWUxYTNjZTUxMGQ2MzU3NWQ0YmVjNGU1NTkxMDk"
+  twitter: JAMstack_nyc
+  youtube: thenewdynamic
+taxonomies:
+  tag: tags
+

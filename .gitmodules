@@ -1,0 +1,3 @@
+[submodule "components/tnd"]
+	path = components/tnd
+	url = https://github.com/thenewdynamic-org/thenewdynamic-org-layouts.git
