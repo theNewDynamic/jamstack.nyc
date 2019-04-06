@@ -10,9 +10,11 @@
 			class="pl-8 sm:pl-4 font-brand-heavy text-3xl tracking-normal block text-primary-color font-brand no-underline">
 			{{.Site.Title}}
 		</a>
+		{{ if not .IsHome }}
 		<div class="px-4 text-base font-sans tracking-wide text-gray-600 font-sans">
 			{{ .Site.Params.description | markdownify }}
 		</div>
+		{{ end }}
 		{{/*  <a href="/"
 			class="block no-underline mt-4 ">
 			<img src="/images/tnd-logo-B50938.svg" alt="logo" class="px-8 h-12TK xxl:h-16TK sm:px-4 max-w-full">
