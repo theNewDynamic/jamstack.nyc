@@ -1,34 +1,29 @@
- {{ if .IsHome }}
- <a href="{{ .Site.Home.RelPermalink }}" class="fixed right-0 m-0 p-0 bg-white block bottom-0 text-primary-color font-brand-heavy tracking-tight bold" style="font-size:8vw;"> {{.Site.Title}}</a>
- 
- {{ end }}
- 
- <header>
+{{ if .IsHome }}
+<a href="{{ .Site.Home.RelPermalink }}"
+	class="hidden lg:block sm:fixed right-0 m-0 p-0 bg-white  bottom-0 text-primary-color font-brand-heavy tracking-tight bold"
+	style="font-size:8vw;">
+	{{.Site.Title}}
+</a>
+{{ end }}
+
+<header>
 	<div class="pt-6 lg:pt-12">
-				{{/*  May return to this, but for now using the image  */}}
-			<a href="/"
-			class="pl-8 sm:pl-4 font-brand-heavy text-3xl tracking-normal block text-primary-color font-brand no-underline">
+		<a href="/"
+			class="pl-4 font-brand-heavy text-3xl tracking-normal block text-primary-color font-brand no-underline font-max-2">
 			{{.Site.Title}}
 		</a>
 		{{ if not .IsHome }}
-		<div class="px-4 text-base font-sans tracking-wide text-gray-600 font-sans">
+		<div class="px-4 text-base font-sans tracking-wide text-gray-900 font-sans">
 			{{ .Site.Params.description | markdownify }}
 		</div>
 		{{ end }}
-		{{/*  <a href="/"
-			class="block no-underline mt-4 ">
-			<img src="/images/tnd-logo-B50938.svg" alt="logo" class="px-8 h-12TK xxl:h-16TK sm:px-4 max-w-full">
-		</a>		  */}}
-		{{/*  <img src="/images/JAMstack-hashtag.svg" alt="logo" class="px-8 sm:px-16 mx-2 my-4 max-w-full md:w-5/6">  */}}
-		<div class="pt-8 hidden sm:block">			
+
+		<div class="pt-8 hidden sm:block">
 			{{ partial "_global/menus.html" . }}
 		</div>
-		
-			<div class="flex items-center justify-center pt-8 {{ if not .IsHome }} hidden sm:inline-block{{ end }}">
-				{{ partial "_components/social-follow.html" (dict "cx" . "icon_size" "26px") }}				
-			</div>
-		
-		
-		
+
+		<div class="flex items-center justify-center sm:pt-8">
+			{{ partial "_components/social-follow.html" (dict "cx" . "icon_size" "26px") }}
+		</div>
 	</div>
 </header>

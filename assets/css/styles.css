@@ -12,7 +12,11 @@
 @import "./tailwindcss/modules/_menu-button";
 /* @import "./tailwindcss/modules/_hugo-internal-templates"; */
 
-
+@screen sm {
+  .font-max-2 {
+    font-size: 2vw;
+  }
+}
 /* body {
   @apply h-screen bg-gray-100;
 }

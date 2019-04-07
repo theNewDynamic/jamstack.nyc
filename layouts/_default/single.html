@@ -1,16 +1,34 @@
 {{ define "main" }}
-  <article class="h-entry mx-auto max-w-2xl py-2 lg:pt-5 px-4 text-3xl font-brand">
-    {{- partial "_components/page-heading.html" . -}}
-    <section class="nested leading-normal text-xl font-serif nested-no-underlines nested-imgTK text-grey-darkest pb-32">
-      {{ .Content }}
-       {{ if (or (eq .Section "article") (eq .Section "event")) }} 
-        {{ if .Date }}
-          <div class="text-sm">
-            {{ partial "_components/time.html" (dict "context" . "show_time" false) }}
-          </div>
-        {{ end }} 
-        {{ end }} 
-        {{partial "_components/link-to-original.html" (dict "item" .)}}
-    </section>
-  </article>
+<article class="h-entry mx-auto max-w-2xl py-2 lg:pt-5 px-4">
+
+  {{ if (or (eq .Section "article") (eq .Section "event")) }}
+  {{ if .Date }}
+  <div class="text-3xl mb-4 font-brand-heavy text-black">
+    {{ partial "_components/time.html" (dict "context" . "show_time" false) }}
+  </div>
+  {{ end }}
+  {{ end }}
+
+  <h1 class="text-4xl leading-tight mt-8 font-brand">
+    {{- .Title | markdownify -}}
+  </h1>
+
+  {{ with .Description }}
+  <p class="text-xl text-gray-900 my-8">
+    {{- . | markdownify -}}
+  </p>
+  {{ end }}
+
+  {{ with .Params.image }}
+  <img class="w-full block mb-8" src="{{.file}}" alt="Details about {{.Title}}">
+  {{ end }}
+  {{/*
+For sections, requires $section being passed through: {{partial "_components/page-heading.html" $section}}
+  */}}
+  <section class="nested leading-normal text-lg font-sans nested-no-underlines nested-imgTK text-gray-900  pb-32">
+    {{ .Content }}
+
+    {{partial "_components/link-to-original.html" (dict "item" .)}}
+  </section>
+</article>
 {{end}}
