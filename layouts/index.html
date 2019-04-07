@@ -1,9 +1,24 @@
 {{ define "main" }}
   {{ partial "_components/content.html" . }}
   {{ with .Site.Params.description }}
-    <div class="w-full bg-center sm:bg-left bg-no-repeat bg-contain bg-center py-16 lg:py-20" style="background-image:url(/images/nyc-art.png)">
+    <div class="w-full bg-center sm:bg-left bg-no-repeat bg-contain bg-center py-16 lg:py-20"
+      style="background-image:url(/images/nyc-art.png)">
       <h2 class="font-brand text-2xl sm:text-4xl px-4 sm:px-8">{{ . | markdownify }}</h2>
     </div>
   {{ end }}
-  
+
+  {{ $events := (where .Site.RegularPages "Type" "event").ByDate }}
+  {{ $events_upcoming := where $events ".Date" "ge" now }}
+  {{/*  {{ $events_past := where $events.Reverse ".Date" "lt" now }}  */}}
+  {{ with $events_upcoming }}
+    <h2 class="font-brand my-4">Upcoming Events</h2>
+    {{ range . }}
+      <div class="relative w-full mb-8">
+        {{ partial "item.html" . }}
+      </div>
+    {{ end }}
+{{ end }}
+
+
+
 {{ end }}
