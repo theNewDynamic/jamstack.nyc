@@ -30,7 +30,3 @@ fields:
   label: Gallery
   template: partial-images-w-credit
   hidden: false
-pages:
-- content/venues/public-library-of-brookline.md
-- content/venues/berklee-performance-center-event-space.md
-- content/venues/brookline-booksmith-store-level.md
