@@ -1,7 +1,7 @@
 DefaultContentLanguage: en
 MetaDataFormat: yaml
 buildFuture: true
-baseURL: 'https://www.thenewdynamic.com'
+baseURL: 'https://www.jamstack.nyc/'
 enableRobotsTXT: true
 googleAnalytics: ''
 languageCode: en-us
