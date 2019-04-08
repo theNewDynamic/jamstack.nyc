@@ -1,10 +1,10 @@
 ---
-label: partial-date
+label: partial-venue
 hide_body: false
-is_partial: true
+display_field: venue
 fields:
 - name: venue
-  label: Venue
+  label: Venue Information
   type: field_group
   fields:
   - name: address
@@ -16,26 +16,25 @@ fields:
     label: City
     type: text
     hidden: false
-    default: ''
-  - name: name
-    label: Name
-    type: text
-    hidden: false
-    default: ''
+    default: Brookline
   - name: state
     label: State
     type: text
     hidden: false
-    default: ''
+    default: MA
   - name: zip
     label: Zip
     type: text
     hidden: false
-    default: ''
+    default: '02446'
+  - type: text
+    name: phone
+    label: Phone
   - name: link
     label: Link
     type: text
     hidden: false
-    default:   
+    default: 
+    description: e.g. https://thewilbur.com
   hidden: false
   default: 

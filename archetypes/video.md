@@ -8,5 +8,4 @@ link: ""
 video: 
 image:
   file: 
-venue: 
 ---

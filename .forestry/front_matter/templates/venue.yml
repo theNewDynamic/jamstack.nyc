@@ -1,0 +1,36 @@
+---
+label: venue
+hide_body: false
+fields:
+- type: include
+  name: default
+  label: Default
+  template: partial-default
+- type: include
+  template: partial-page-heading
+  label: Page Heading
+  name: page_heading
+- type: include
+  name: venue_information
+  label: Venue Information
+  template: partial-venue
+- type: boolean
+  name: featured
+  label: Featured
+- type: number
+  name: weight
+  label: Weight
+  description: Will determine the order of venues on the Venue Partnerships page
+- type: include
+  name: image
+  label: Main Image
+  template: partial-image-with-credit
+- type: include
+  name: gallery
+  label: Gallery
+  template: partial-images-w-credit
+  hidden: false
+pages:
+- content/venues/public-library-of-brookline.md
+- content/venues/berklee-performance-center-event-space.md
+- content/venues/brookline-booksmith-store-level.md

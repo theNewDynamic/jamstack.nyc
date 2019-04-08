@@ -2,11 +2,15 @@
 title: {{ replace .TranslationBaseName "-" " " | title }}
 date: {{ .Date }}
 description: 
-subtitle: 
-tags:
 link: ""
-video: 
 image:
   file: 
-venue: 
+venue:
+  address:
+  address2:
+  city: New York
+  state: NY
+  zip: 
+  link:
+weight:
 ---
