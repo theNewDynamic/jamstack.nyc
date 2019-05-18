@@ -1,0 +1,6 @@
+http://jamstack.nyc/* https://www.jamstack.nyc/:splat 301!
+{{- range $p := .Site.Pages -}}
+{{- range .Aliases }}
+{{ . }} {{ $p.RelPermalink -}}
+{{- end }}
+{{- end -}}
