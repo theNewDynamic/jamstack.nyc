@@ -1,5 +1,5 @@
 +++
-date = "2020-01-14T23:30:00+00:00"
+date = "2020-01-14T18:30:00-05:00"
 description = "It's been a few years since we've had the Two Jeffs in a room together, and this event is going to be great! After the sessions we're going to have a roundtable discussion on JAMstack technologies and the web."
 show_time = true
 title = "Scaling Static Sites with NextJS + Progressive Web \"Apps\" with 11ty"
