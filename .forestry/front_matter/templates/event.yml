@@ -23,3 +23,5 @@ fields:
   name: venue
   label: venue
   template: partial-venue
+pages:
+- content/event/2020-01-14-scaling-static-sites-with-nextjs-progressive-web-apps-with-11ty.md
