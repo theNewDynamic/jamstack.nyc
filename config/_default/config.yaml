@@ -1,5 +1,5 @@
 DefaultContentLanguage: en
-MetaDataFormat: yaml
+
 buildFuture: true
 baseURL: 'https://www.jamstack.nyc/'
 enableRobotsTXT: true
