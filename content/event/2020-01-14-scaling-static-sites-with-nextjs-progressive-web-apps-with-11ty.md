@@ -1,21 +1,22 @@
-+++
-date = "2020-01-14T18:30:00-05:00"
-description = "It's been a few years since we've had the Two Jeffs in a room together, and this event is going to be great! After the sessions we're going to have a roundtable discussion on JAMstack technologies and the web."
-show_time = true
-title = "Scaling Static Sites with NextJS + Progressive Web \"Apps\" with 11ty"
-[venue]
-address = ""
-city = "Brookline"
-link = ""
-phone = ""
-state = "MA"
-zip = "02446"
-[[images]]
-caption = ""
-credit = ""
-file = "/uploads/JAMstack_NYC-EVENT-JAN-14-20.jpg"
+---
+date: '2020-01-14T18:30:00-05:00'
+description: >-
+  It's been a few years since we've had the Two Jeffs in a room together, and
+  this event is going to be great! After the sessions we're going to have a
+  roundtable discussion on JAMstack technologies and the web.
+show_time: true
+title: Scaling Static Sites with NextJS + Progressive Web "Apps" with 11ty
+venue:
+  address: ''
+  city: Brookline
+  link: ''
+  phone: ''
+  state: MA
+  zip: '02446'
+image:
+  file: /uploads/JAMstack_NYC-EVENT-JAN-14-20.jpg
 
-+++
+---
 It's been a few years since we've had the Two Jeffs in a room together, and this event is going to be great! After the sessions we're going to have a roundtable discussion on JAMstack technologies and the web.
 
 There will be food and beverages. We will begin promptly, so arrive on time. Details below.
