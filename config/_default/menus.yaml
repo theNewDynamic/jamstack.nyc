@@ -11,6 +11,10 @@ main:
     name: Videos
     url: /video/
     weight: 60
+- identifier: meetup
+    name: Meetup
+    url: https://www.meetup.com/JAMstack-nyc/
+    weight: 90    
   # - identifier: speakers
   #   name: Speakers
   #   url: /speakers/
