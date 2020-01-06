@@ -17,6 +17,8 @@ image:
   file: /uploads/JAMstack_NYC-EVENT-JAN-14-20.jpg
 
 ---
+RSVP: [Meetup.com](https://www.meetup.com/JAMstack-nyc/events/267118916/)
+
 It's been a few years since we've had the Two Jeffs in a room together, and this event is going to be great! After the sessions we're going to have a roundtable discussion on JAMstack technologies and the web.
 
 There will be food and beverages. We will begin promptly, so arrive on time. Details below.
@@ -29,7 +31,7 @@ FaunaDB - The database built for serverless, featuring native GraphQL: [https://
 
 \---
 
-RSVP: [Meetup.com]https://www.meetup.com/JAMstack-nyc/events/267118916/
+
 
 
 Talk 1: Jeff Escalante, HashiCorp (@jescalan)
@@ -69,3 +71,5 @@ New York, NY 10016
 (212) 380-8227
 
 [https://www.happycog.com/](https://www.happycog.com/ "https://www.happycog.com/")
+
+RSVP: [Meetup.com](https://www.meetup.com/JAMstack-nyc/events/267118916/)
