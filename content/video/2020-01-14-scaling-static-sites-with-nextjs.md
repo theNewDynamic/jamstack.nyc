@@ -7,7 +7,6 @@ video_id: GuPsMg5sYYY
 related_tools: []
 related_content: []
 weight: 
-draft: true
 
 ---
 Talk 1: Jeff Escalante, HashiCorp (@jescalan)  
