@@ -33,6 +33,11 @@ fields:
     source:
       type: pages
       section: tool
+- name: image
+  type: include
+  config: {}
+  template: partial-images-w-credit
+  label: Image
 - type: list
   name: related_content
   label: Related Event or Article
@@ -40,6 +45,7 @@ fields:
     use_select: true
     source:
       type: pages
+      section: event
 - type: number
   name: weight
   label: Weight
