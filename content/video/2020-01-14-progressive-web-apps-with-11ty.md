@@ -15,3 +15,5 @@ Talk 2: Jeff Posnick, Google (@jeffposnick)
 You can get all the Progressive Web "App" benefits, like instant, offline-first loading, without building a single-page app! This talk will be a architectural exploration of an example static site PWA, generated with 11ty: [https://jeffy.info](https://jeffy.info "https://jeffy.info")  
   
 Jeff Posnick is a member of Google's Web Developer Relations, working on libraries and guidance around building PWAs.
+
+[PW_A_s with 11ty.pdf](/uploads/PW_A_s with 11ty.pdf "PW_A_s with 11ty.pdf")
