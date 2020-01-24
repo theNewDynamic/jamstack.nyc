@@ -5,8 +5,13 @@ description: Jeff Escalante at JAMstack.NYC Event January 14th, 2020
 vendor: YouTube
 video_id: GuPsMg5sYYY
 related_tools: []
-related_content: []
+related_content:
+- event/2020-01-14-scaling-static-sites-with-nextjs-progressive-web-apps-with-11ty.md
 weight: 
+images:
+- file: "/uploads/JAMstack_NYC-EVENT-JAN-14-20-1.jpg"
+  credit: ''
+  caption: ''
 
 ---
 Talk 1: Jeff Escalante, HashiCorp (@jescalan)  
