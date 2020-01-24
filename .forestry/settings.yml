@@ -5,6 +5,13 @@ admin_path: static/content-admin
 webhook_url: 
 sections:
 - type: directory
+  path: content/video
+  label: Videos
+  create: documents
+  match: "**/*"
+  templates:
+  - article
+- type: directory
   path: content/event
   label: Event
   create: documents
