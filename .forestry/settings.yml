@@ -10,7 +10,7 @@ sections:
   create: documents
   match: "**/*"
   templates:
-  - article
+  - video
 - type: directory
   path: content/event
   label: Event
