@@ -34,9 +34,6 @@ FaunaDB - The database built for serverless, featuring native GraphQL: [https://
 
 \---
 
-
-
-
 Talk 1: Jeff Escalante, HashiCorp (@jescalan)
 
 We all know that static websites work really well for small, simple pages, but what happens when your operation starts to grow? In this talk, we'll talk through a variety of architectural situations from my past, from personal websites to contract work to agency work to centralizing the web platform at a hypergrowth startup, and come to a conclusion on the most sustainable and painless way to architect web projects for each one.
@@ -75,4 +72,4 @@ New York, NY 10016
 
 [https://www.happycog.com/](https://www.happycog.com/ "https://www.happycog.com/")
 
-RSVP: [Meetup.com](https://www.meetup.com/JAMstack-nyc/events/267118916/)
+info: [Meetup.com](https://www.meetup.com/JAMstack-nyc/events/267118916/)
