@@ -16,3 +16,5 @@ We all know that static websites work really well for small, simple pages, but w
 Jeff has been a jamstack advocate for many moons, having built two static site generators, roots and spike. He currently works as the web platform lead at HashiCorp
 
 Slides [scaling-static-sites-nextjs.pdf](/uploads/scaling-static-sites-nextjs.pdf "scaling-static-sites-nextjs.pdf")
+
+[Click here for event Playlist](https://www.youtube.com/playlist?list=PLHSBYD3ClyvMyktm5VhxwVruTiw2QOcHO "JAMstack on Youtube")
