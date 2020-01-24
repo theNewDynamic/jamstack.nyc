@@ -48,6 +48,7 @@ fields:
     max: '100'
     step: '1'
 pages:
+- content/video/2020-01-14-progressive-web-apps-with-11ty.md
 - content/video/2020-01-14-scaling-static-sites-with-nextjs.md
 - content/video/Dynamic Generators - Sergey Chernyshev.md
 - content/video/Master Serverless! - Jared Short.md
