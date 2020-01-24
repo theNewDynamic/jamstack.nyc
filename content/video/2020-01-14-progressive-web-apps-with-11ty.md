@@ -8,6 +8,10 @@ related_tools: []
 related_content:
 - event/2020-01-14-scaling-static-sites-with-nextjs-progressive-web-apps-with-11ty.md
 weight: 
+images:
+- file: "/uploads/JAMstack_NYC-EVENT-JAN-14-20-1.jpg"
+  credit: ''
+  caption: ''
 
 ---
 Talk 2: Jeff Posnick, Google (@jeffposnick)  
