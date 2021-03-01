@@ -14,3 +14,5 @@ fields:
   name: weight
   label: weight
   template: partial-weight
+pages:
+- content/test.md
