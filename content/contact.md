@@ -1,4 +1,5 @@
 ---
 title: Contact
+
 ---
-Contact Page Copy Here.
+Catch us on [Twitter](https://twitter.com/thenewdynamic).
